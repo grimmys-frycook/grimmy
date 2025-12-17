@@ -1,0 +1,23 @@
+# Context
+.context
+
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/10143/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Node modules
+node_modules/
+
+coverage/
+lcov.info
